@@ -1,0 +1,58 @@
+main:
+- title: Home
+  url: /
+- title: Maths Club
+  url: /mathclub.html
+- title: Programs
+  url: /programs.html
+- title: Fees
+  url: /pricing.html
+- title: Policies
+  url: /policies.html
+- title: About
+  url: /about.html
+- title: Register
+  url: /register.html
+  cta: true
+main_vi:
+- title: Trang chủ
+  url: /vi/
+- title: Câu lạc bộ Toán
+  url: /vi/mathclub.html
+- title: Chương trình
+  url: /vi/programs.html
+- title: Học phí
+  url: /vi/pricing.html
+- title: Chính sách
+  url: /vi/policies.html
+- title: Giới thiệu
+  url: /vi/about.html
+- title: Đăng ký
+  url: /vi/register.html
+  cta: true
+footer_quicklinks:
+- title: Philosophy
+  url: /philosophy.html
+- title: About
+  url: /about.html
+- title: Register
+  url: /register.html
+- title: Enquiry
+  url: /enquiry.html
+- title: Contact
+  url: /contact.html
+- title: Demo lessons
+  url: /demo/
+footer_quicklinks_vi:
+- title: Triết lý
+  url: /vi/philosophy.html
+- title: Giới thiệu
+  url: /vi/about.html
+- title: Đăng ký
+  url: /vi/register.html
+- title: Tư Vấn
+  url: /vi/enquiry.html
+- title: Liên hệ
+  url: /vi/contact.html
+- title: Bài học mẫu
+  url: /demo/

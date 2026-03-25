@@ -1,0 +1,25 @@
+<section class="section data-grid-section">
+  <div class="container">
+    <div class="section-head premium-section-head">
+      <h2>Fees at a glance</h2>
+      <p>This summary block now comes from data, so future fee-page updates are easier.</p>
+    </div>
+    <div class="premium-card-grid premium-card-grid--4">
+      {% for tier in site.data.pricing.tiers %}
+        <article class="premium-card premium-card--pricing">
+          <h3>{{ tier.name }}</h3>
+          <div class="premium-price">{{ tier.price }}</div>
+          <p>{{ tier.note }}</p>
+        </article>
+      {% endfor %}
+    </div>
+    <div class="premium-inclusions">
+      <h3>What families can expect</h3>
+      <ul>
+        {% for item in site.data.pricing.inclusions %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+brand: Magic Math Master
+tagline: Premium maths tutoring for Prep to Year 12
+email: info@magicmathmaster.com.au
+booking_url: /register.html
+enquiry_url: /enquiry.html
+student_login: https://practice.magicmathmaster.com.au
+phone: ''
+location: Australia
+footer_blurb: Calm, structured, confidence-first maths tutoring with clear family
+  communication and a premium learning experience.
+tagline_vi: Dạy kèm Toán cao cấp cho học sinh từ Prep đến Lớp 12
+booking_url_vi: /vi/register.html
+enquiry_url_vi: /vi/enquiry.html
+location_vi: Úc
+footer_blurb_vi: Dạy kèm Toán nhẹ nhàng, có cấu trúc, ưu tiên xây dựng sự tự tin với giao tiếp rõ ràng cùng gia đình và trải nghiệm học tập chất lượng cao.
+student_login_label_vi: Đăng nhập học sinh
+book_lesson_label_vi: Đặt buổi học
+quick_links_label_vi: Liên kết nhanh
+contact_label_vi: Liên hệ
+
+student_login_label: Student login

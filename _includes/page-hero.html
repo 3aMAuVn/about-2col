@@ -1,0 +1,13 @@
+{% assign is_vi = false %}
+{% if page.lang == 'vi' or page.nav_key == 'main_vi' or page.url contains '/vi/' or page.permalink contains '/vi/' %}{% assign is_vi = true %}{% endif %}
+<section class="page-hero {{ page.hero_class | default: '' }}">
+  <div class="container page-hero__inner">
+    {% if page.kicker %}<p class="page-hero__kicker">{{ page.kicker }}</p>{% endif %}
+    <h1>{{ page.hero_title | default: page.title }}</h1>
+    {% if page.hero_subtitle %}<p>{{ page.hero_subtitle }}</p>{% endif %}
+    <div class="page-hero__actions">
+      <a class="btn btn-amber" href="{% if is_vi %}{{ '/vi/register.html' | relative_url }}{% else %}{{ '/register.html' | relative_url }}{% endif %}">{% if is_vi %}Đăng ký{% else %}Register{% endif %}</a>
+      <a class="btn btn-outline" href="{% if is_vi %}{{ '/vi/enquiry.html' | relative_url }}{% else %}{{ '/enquiry.html' | relative_url }}{% endif %}">{% if is_vi %}Đặt câu hỏi{% else %}Ask a question{% endif %}</a>
+    </div>
+  </div>
+</section>
